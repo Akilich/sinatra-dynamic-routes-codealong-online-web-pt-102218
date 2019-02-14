@@ -23,4 +23,4 @@ class App < Sinatra::Base
   end
 end
 
-<%= params[:user_name] %>
+#<%= params[:user_name] %>
