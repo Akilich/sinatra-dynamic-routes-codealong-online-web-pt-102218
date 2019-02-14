@@ -14,7 +14,7 @@ class App < Sinatra::Base
   end
 
   get '/goodbye/:name' do
-    @user_name = params[:name]
+    
     "Goodbye #{@user_name}!"
   end
   
@@ -22,3 +22,5 @@ class App < Sinatra::Base
     [:num1]*[:num2]
   end
 end
+
+<%= params[:user_name] %>
